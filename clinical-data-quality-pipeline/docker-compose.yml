@@ -1,9 +1,0 @@
-services:
-  postgres:
-    image: postgres:17-alpine
-    environment:
-      POSTGRES_DB: clinical_quality
-      POSTGRES_USER: clinical
-      POSTGRES_PASSWORD: clinical
-    ports:
-      - "5432:5432"
